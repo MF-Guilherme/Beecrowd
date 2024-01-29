@@ -14,7 +14,3 @@ def seq_log(x, y):
 x, y = map(int, input().split(' '))
 
 seq_log(x, y)
-
-
-
-        

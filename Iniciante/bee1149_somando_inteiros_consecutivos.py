@@ -1,13 +1,17 @@
-# a, n = map(int, input().split())
-# while n <= 0:
-#     n = int(input())
+lista = input().split(" ")
+lista_limpa = []
 
-# soma = 0
-# for i in range(n):
-#    soma += (a + i)
+for i in lista:
+    if int(i) <= 0:
+        pass
+    else:
+        lista_limpa.append(i)
 
-# print(soma)
+a, n = lista_limpa
 
-a = input().split(" ")
+soma = 0
+for i in range(int(n)):
+   soma += (int(a) + i)
 
-print(a)
+print(soma)
+
